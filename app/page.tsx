@@ -1,12 +1,10 @@
 "use client"
 import { ArrowRight, Award, Clock, MessageCircle, Shield } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function Page() {
   const whatsappNumber = "6281234567890";
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
-  const router = useRouter ()
   const products = [
     {
       id: "pvc-board",

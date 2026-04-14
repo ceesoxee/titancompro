@@ -1,7 +1,7 @@
 import { Calendar, User, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-export function Blog() {
+export default function Blog() {
   const blogPosts = [
     {
       id: "choosing-right-pvc",
